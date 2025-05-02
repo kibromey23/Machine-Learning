@@ -77,4 +77,4 @@ This project aims to predict individual **medical insurance charges** using demo
 ## 📎 Repository Contents
 - `medical_charges_regression_project.ipynb` – Jupyter Notebook
 - `README.md` – Project documentation
-- `insurance.csv` – Dataset (optional upload or linked)
+- `insurance.csv` – Dataset
