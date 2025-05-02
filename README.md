@@ -1,18 +1,80 @@
-# 💫 About Me:
-Hi, I'm Kibrom! 👋<br>I'm an Information Technology student with a great passion for Machine Learning, Artificial Intelligence, and data science. My goal is to leverage technology to create intelligent solutions like:<br><br>🗨️ Advanced chatbots for seamless human-computer interaction.<br>🎨 Generative AI models that push the boundaries of creativity.<br>🤖 Smart and efficient robots to tackle real-world challenges.<br>🛠️ Skills & Interests<br><br>Programming Languages: Python, JavaScript, and more.<br>Machine Learning Frameworks: TensorFlow, PyTorch, scikit-learn.<br>AI Technologies: Natural Language Processing, Computer Vision, and Reinforcement Learning.<br>Tools: Git, Docker, Jupyter Notebooks, VS Code.<br>Other Interests: building websites,IoT.<br>🌱 Currently Learning<br><br>Building and fine-tuning Generative AI models.<br>Developing state-of-the-art chatbots with frameworks like Rasa and Hugging Face.<br>Exploring robotics and automation using tools like ROS (Robot Operating System).<br>📚 My Projects that i focused on<br><br>ChatBot Pro: A highly customizable chatbot powered by natural language understanding.<br>CreativeAI: A generative AI project that produces unique content, from text to images. -Smart Robot Assistant: A robotic assistant designed for home automation.<br>🤝 Let's Connect<br><br>Email : kibromey23@gmail.com<br>Telegram : https://t.me/@shashey23<br>I'm always curious about how AI can improve our everyday lives, and I'm constantly exploring innovative ways to make technology more intuitive and accessible.<br><br>Feel free to explore my repositories and collaborate on exciting projects. Let's build the future together!
+# 🧠 Medical Charges Regression - Supervised Learning Project
 
-
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=kibromey23&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=kibromey23&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kibromey23&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+## 🔍 Project Overview
+This project aims to predict individual **medical insurance charges** using demographic and lifestyle data. It follows a complete supervised learning pipeline: data exploration, preprocessing, model training, evaluation, and analysis.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=kibromey23&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 📁 Dataset
+- Source: [Kaggle - Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+- Records: 1,338 individuals
+- Features:
+  - `age`, `sex`, `bmi`, `children`, `smoker`, `region`
+  - `charges` (target variable)
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+- **Histograms** for numerical distributions (`age`, `bmi`, `charges`)
+- **Countplots** for `sex`, `smoker`, and `region`
+- **Correlation Heatmap** and **Pairplots** revealed:
+  - High correlation of `smoker`, `age`, and `bmi` with `charges`
+
+---
+
+## ⚙️ Methodology
+
+### 🔄 Preprocessing
+- Label Encoding: `sex`, `smoker`
+- One-hot Encoding: `region`
+- Standard Scaling: Numerical features
+- Train/Test Split: 80/20
+
+### 🤖 Models Tested
+1. **Linear Regression**
+2. **Decision Tree Regressor**
+3. ✅ **Random Forest Regressor** *(Best Performer)*
+
+### ✅ Why Random Forest?
+- Handles non-linearity and interactions well
+- Reduces overfitting through ensembling
+- Superior accuracy (R² = 0.8655)
+
+---
+
+## 🧪 Model Performance
+
+| Metric | Value |
+|--------|-------|
+| **RMSE** | 4569.31 |
+| **MAE**  | 2545.83 |
+| **R² Score** | 0.8655 |
+
+- Random Forest provided the best generalization and predictive performance.
+
+---
+
+## 📈 Visual Results
+- Scatter plot of Actual vs Predicted charges shows a strong fit
+- Outliers (very high charges) slightly affect error metrics
+
+---
+
+## 🧠 Conclusion
+- Smoking status, age, and BMI are the most influential features
+- Random Forest outperformed simpler models
+- The pipeline closely follows standard ML workflows
+
+---
+
+## ⚡ Future Improvements
+- Apply log transformation to reduce skew
+- Use cross-validation and hyperparameter tuning
+- Experiment with Gradient Boosting or XGBoost
+
+---
+
+## 📎 Repository Contents
+- `medical_charges_regression_project.ipynb` – Jupyter Notebook
+- `README.md` – Project documentation
+- `insurance.csv` – Dataset (optional upload or linked)
