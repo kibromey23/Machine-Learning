@@ -12,7 +12,7 @@ here is the original dataset link from kaggle website
    - This folder contains multiple datasets for machine learning, data analysis, and other related tasks. 
    - You can access the datasets by clicking on the above link.
 
-> Note: Ensure you have the required permissions or licenses for using these datasets. If you encounter any issues or have questions about a dataset, feel free to open an issue or contact me.
+> Note: Be aware that it's for educational purpose only.
 
 ## How to Use the Datasets
 
