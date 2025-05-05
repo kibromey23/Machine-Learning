@@ -1,6 +1,6 @@
-﻿# Datasets Repository
+﻿# Datasets Folder
 
-Welcome to the Datasets Repository!
+Welcome to the Datasets Folder!
 
 This repository contains links to various datasets that can be used for machine learning, data analysis, and related projects. Below you'll find a link to the datasets available on Google Drive.
 
@@ -25,7 +25,6 @@ This repository contains links to various datasets that can be used for machine 
 This repository and its datasets are provided under the [insert license here, e.g., MIT, Apache 2.0].
 
 ---
-
-Feel free to contribute to this repository by adding datasets or improving the documentation. 
+ 
 
 For any questions or issues, please open an issue on this repository or reach out to me directly.
