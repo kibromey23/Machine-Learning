@@ -2,7 +2,7 @@
 
 Welcome to the Datasets Folder!
 
-This repository contains links to various datasets that can be used for machine learning, data analysis, and related projects. Below you'll find a link to the datasets available on Google Drive.
+This folder contains links to various datasets that can be used for machine learning, data analysis, and related projects. Below you'll find a link to the datasets available on Google Drive.
 
 ## Datasets
 
@@ -22,7 +22,7 @@ This repository contains links to various datasets that can be used for machine 
 
 ## License
 
-This repository and its datasets are provided under the [insert license here, e.g., MIT, Apache 2.0].
+These datasets are provided under the [insert license here, e.g., MIT, Apache 2.0].
 
 ---
  
