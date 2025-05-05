@@ -5,6 +5,8 @@ Welcome to the Datasets Folder!
 This folder contains links to various datasets that can be used for machine learning, data analysis, and related projects. Below you'll find a link to the datasets available on Google Drive.
 
 ## Datasets
+here is the original dataset link from kaggle website
+ Kaggle dataset links :https://www.kaggle.com/datasets
 
 - **[Google Drive Datasets](https://drive.google.com/drive/folders/1xqAYm4gf-RqJdwKXi-dJmKv6_-nPOlFD?usp=drive_link)**
    - This folder contains multiple datasets for machine learning, data analysis, and other related tasks. 
@@ -22,7 +24,7 @@ This folder contains links to various datasets that can be used for machine lear
 
 ## License
 
-These datasets are provided under the [insert license here, e.g., MIT, Apache 2.0].
+These datasets are downloaded from kaggle.com so use those datasets properly and i want to share those datasets for educational purpose only!!
 
 ---
  
