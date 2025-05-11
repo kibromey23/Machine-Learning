@@ -1,7 +1,5 @@
 # 🧠 Machine Learning Repository
 
-![ML Banner](https://upload.wikimedia.org/wikipedia/commons/4/44/Machine_learning_algorithm_types.png)
-
 
 Welcome to the **Machine Learning Repository** — a centralized collection of mini-projects, experiments, and hands-on notebooks created to explore and master a wide range of machine learning algorithms and techniques.
 
