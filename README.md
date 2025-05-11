@@ -14,21 +14,21 @@ Welcome to the **Machine Learning Repository** — a centralized collection of p
 
 ## 📁 Contents
 
-### 🔸 `projects/`
+### 🔸 `projects`
 Complete, well-documented machine learning mini-projects:
 - **Regression** (e.g., house price prediction)
 - **Classification** (e.g., digit recognition, spam detection)
 - **Clustering** (e.g., customer segmentation)
 - **Deep Learning** (CNNs for image tasks, RNNs for sequences)
 
-### 🔸 `notebooks/`
+### 🔸 `notebooks`
 Standalone notebooks for:
 - Exploratory Data Analysis (EDA)
 - Algorithm comparisons
 - Model evaluation techniques
 - Concept demos (e.g., bias-variance, learning rate effects)
 
-### 🔸 `datasets/`
+### 🔸 `datasets`
 Contains dataset references or small datasets used for practice and demonstration.
 
 ---
@@ -71,6 +71,8 @@ Create a new branch
 Commit your changes
 
 Open a Pull Request with a meaningful description
+
+
 
 Kibrom Getachew
 🔗 GitHub: @kibromey23
