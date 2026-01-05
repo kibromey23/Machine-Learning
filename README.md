@@ -16,22 +16,9 @@ Welcome to the **Machine Learning Repository** — a centralized collection of m
 
 ---
 
-## 📁 Repository Structure
+
 
 ```
-.
-├── datasets/         # Sample datasets (or links to external ones)
-├── projects/         # End-to-end ML/DL projects
-│   ├── regression/
-│   ├── classification/
-│   ├── clustering/
-│   └── deep_learning/
-├── notebooks/        # Concept notebooks (EDA, metrics, comparisons)
-├── models/           # Saved model files
-├── results/          # Visualizations, evaluation outputs
-├── utils/            # Helper functions (metrics, preprocessors, etc.)
-├── requirements.txt  # Required libraries
-└── README.md         # This file
 ```
 
 ---
