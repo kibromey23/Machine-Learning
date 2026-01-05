@@ -14,31 +14,7 @@ Welcome to the **Machine Learning Repository** — a centralized collection of m
 ✔️ Explore traditional ML, deep learning, and deployment  
 ✔️ Build reusable code and document learnings
 
----
 
-
-
-```
-```
-
----
-
-## 📦 Installation & Setup
-
-```bash
-# Clone this repository
-git clone https://github.com/kibromey23/ml-repo.git
-cd ml-repo
-
-# Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
----
 
 ## 🧰 Tools & Libraries
 
